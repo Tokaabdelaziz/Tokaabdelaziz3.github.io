@@ -1,0 +1,91 @@
+
+
+video{
+    right: 500px;
+}
+
+iframe{
+left: 50px;
+margin: 20px;
+}
+#ul2{
+    margin-left: 20px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container img {
+    width: 50%; 
+    height: auto;
+    margin-right: 20px;
+}
+img{ 
+    image-resolution: 740px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    font-size: 70px;
+    margin: 20px;
+}
+p{
+    line-height: 15px;
+    font-size: 20px;
+    margin: 20px;
+}
+button{
+    margin: 20px;
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding:12px 0 ;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 240px;
+    height: 260px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition:transform 0.5s;
+    margin: 10px 15px;
+    background-position:center;
+    background-size: cover;
+}
+.card1{
+    background-image: url(sports-car-driving-asphalt-road-night-generative-ai_188544-8052.avif);
+}
+.card2{
+    background-image: url(black-sport-car-dark-background-3d-render_68747-40.avif);
+}
+.card3{
+    background-image: url(istockphoto-907671134-612x612.jpg);
+}
+.card4{
+    background-image: url(pexels-photo-5214403.jpeg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card h5{
+    color:rgb(199, 199, 184) ;
+
+}
+iframe{
+    margin-top: 30px;
+}

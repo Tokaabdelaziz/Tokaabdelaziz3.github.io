@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: rgb(115, 148, 115);
+    color: #fff;
+    padding: 20px;
+
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .maintenance-table {
+    width: 45%;
+  }
+  
+  .maintenance-table h2 {
+    color: #333;
+  }
+  
+  .maintenance-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .maintenance-table th,
+  .maintenance-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .maintenance-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .warranty-info {
+    width: 45%;
+  }
+  
+  .warranty-info h2 {
+    color: #333;
+  }
+  
+  .warranty-info input[type="text"],
+  .warranty-info input[type="date"],
+  .warranty-info input[type="number"],
+  .warranty-info button {
+    margin-top: 5px;
+  }
+  
+  #submitBtn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #submitBtn:hover {
+    background-color: #555;
+  }
+  footer {
+    color: beige;
+    text-align: center;
+    padding: 0.2px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,40 @@
+h1 {
+background-color:rgb(115, 148, 115);
+
+}
+
+video{
+    background-color: black;
+}
+table{
+    background-color:rgb(235, 235, 192);
+}
+#infos {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#infos tr
+{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#infos tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+#infos tr:hover {
+background-color:rgb(115, 148, 115);
+}
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px blue;
+    background-color: rgb(115, 148, 115);
+    color: white;
+    text-align: center;
+}

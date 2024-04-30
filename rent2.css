@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #194569;
+    text-align: left;
+    font-size: 65px;
+    text-shadow:  4px 2px #0f293e ;
+    background-image: url('bb2.jpg');
+}
+
+form {
+    text-align: left;
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: ;
+    margin-bottom: 5px;
+}
+
+select, input[type="date"], input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #194569;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0e4581;
+}
+
+#rentalOptions {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #87CEFA;
+    text-align: center;
+}
+
+th {
+    background-color: #87CEFA;
+}
+

@@ -1,0 +1,120 @@
+
+h1{
+
+
+    text-align: center;
+    font-size: 30px;
+    background-color:rgb(115, 148, 115) ; 
+    color: black;            
+    padding: 20px;         
+    font-family: Arial, Helvetica, sans-serif;   
+    border-bottom: 1px solid #ddd;  
+      
+}
+      
+b{
+    background-color: blanchedalmond;
+    padding: 100px 100px 100px;
+    margin: 100px 100px 100px;
+    
+
+    
+}
+img{ 
+    float: left;
+    size: 100px;
+}
+clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 100px;
+  }
+p.p1{
+    font-style: oblique;
+    font-size: 20px;
+    margin-bottom: 100px;
+    color: black;
+
+}
+video{
+    display: block;
+    margin: 100px auto;
+    padding: 100px auto;
+    
+
+}
+.table1 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+}
+.table1 th, .table1 td {
+    padding: 20px;
+    text-align: center;
+    text-size-adjust: 30px;
+}
+.table1 th {
+    background-color: #f2f2f2;
+}
+.table1 a {
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+}
+.table1 a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 5px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+    font-size: large;
+}
+p {
+
+    font-style: bold;
+    margin: 0%;
+    color: rgb(10, 10, 10);
+}
+br{
+    font-style: bold;
+    color: chartreuse;
+
+}
+footer{
+    text-align: center;
+    font-size: 30px;
+    background-color:rgb(115, 148, 115) ; 
+    color: black;            
+    padding: 20px;         
+    font-family: Arial, Helvetica, sans-serif;   
+    border-bottom: 1px solid #ddd;
+}
+form {
+    padding: 30px;
+    margin-top: 10px;
+
+}
+.p2 {
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-bottom:5px ;
+}
+.p3 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif; 
+}

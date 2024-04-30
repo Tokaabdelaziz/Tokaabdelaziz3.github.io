@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental</title>
+    <link rel="stylesheet" href="rent2.css">
+    <link rel="stylesheet" href="THEME2.CSS">
+</head>
+<body>
+    <nav class="nav">
+        <div>
+           <ul class="sidebar">
+              <li onclick="hideshowbar()"><a href="#" class="link "> <svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 24 24" width="24px" height="24px">
+                       <path
+                          d="M 4.4042969 3 C 3.7572969 3 3.3780469 3.7287656 3.7480469 4.2597656 L 9.7363281 12.818359 L 3.7246094 19.845703 C 3.3356094 20.299703 3.6578594 21 4.2558594 21 L 4.9199219 21 C 5.2129219 21 5.4916406 20.871437 5.6816406 20.648438 L 10.919922 14.511719 L 14.863281 20.146484 C 15.238281 20.680484 15.849953 21 16.501953 21 L 19.835938 21 C 20.482937 21 20.862187 20.272188 20.492188 19.742188 L 14.173828 10.699219 L 19.900391 3.9902344 C 20.232391 3.6002344 19.955359 3 19.443359 3 L 18.597656 3 C 18.305656 3 18.027891 3.1276094 17.837891 3.3496094 L 12.996094 9.0097656 L 9.3945312 3.8554688 C 9.0205313 3.3194687 8.4098594 3 7.7558594 3 L 4.4042969 3 z" />
+                    </svg></a></li>
+                    <li><a href="indexbeshoy.html" class="link">Mercedes Benz G-Class suv </a></li>
+                    <li><a href="indexbeshoy.html" class="link">Mercedes Benz S-Class sedan</a></li>
+                    <li><a href="indexbeshoy.html" class="link">Audi A8</a></li>
+                    <li><a href="indexbeshoy.html" class="link">Audi Q7</a></li>
+                    <li><a href="indexbeshoy.html" class="link">Lamborghini Huracan</a></li>
+                    <li><a href="indexbeshoy.html" class="link">Lamborghini Urus</a></li>
+                    <li><a href="about us 2.html" class="link">About Us</a></li>
+                    <li><a href="indexx2.html" class="link">Feedback</a></li>
+                 </ul>
+           <ul class="navbar">
+              <li onclick="showsidebar()"><a href="#" class="link"><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 64 64" width="24">
+                       <path d="M7 29v5l50 1v-7L7 29zM7 11v6h50v-6H7zM7 46v7l50-1v-5L7 46z" />
+                    </svg></a></li>
+              <li><a href="trade2.htm" class="link">Trade In </a></li>
+              <li><a href="waranty23.html" class="link"> Car Warranty</a></li>
+              <li><a href="test2.html" class="link"> Car Accessories</a></li>
+              <li><a href="carsServices2.html" class="link"> Car Services</a></li>
+              <li><a href="it2.html" class="link">Showrooms</a></li>
+              <li><a href="rent theme2.html" class="link">Rent</a></li>
+              <li><a href="CarsForSale2.html" class="link">Sale</a></li>
+              <li><a href="login2.html" class="link">Log In</a></li>
+              <li class="left"><a href="Hpage 2.html" class="link">Home</a></li>
+           </ul>
+        </div>
+     </nav>
+<br />
+<script>
+    function showsidebar() {
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+    function hideshowbar() {
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+</script>
+
+    <div class="header">
+        <h1>Car Rental</h1>
+    </div>
+    
+          <iframe src="trade2.htm" name="iframe_a" height="90px" width="100%" title="Iframe Example"></iframe>
+          <div style="text-align: center;">
+          <video class="video" width="670px" height="420px" controls>
+            <source src="video-th2.mp4" type="video/mp4">
+          </video>
+      </div> 
+    <div style="text-align: left;">
+    <form id="rentalForm">
+        <label for="brand">Select Brand:</label>
+        <select id="brand" name="brand">
+            <option value="Toyota">BMW</option>
+            <option value="Honda">Honda</option>
+            <option value="Ford">Ford</option>
+        </select><br>
+        
+        <label for="model">Select Model:</label>
+        <select id="model" name="model">
+        </select><br>
+        
+        <label for="date">Date of Renting:</label>
+        <input type="date" id="date" name="date"><br>
+        
+        <label for="duration">Rent Duration (in days):</label>
+        <input type="number" id="duration" name="duration" min="1" value="1"><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+    <div id="rentalOptions">
+
+    </div>
+    <br/>
+    <br/>
+    <br/>
+   <img src="bb2.jpg" width="100%" height="60px">
+
+    <script src="script22.js"></script>
+</body>
+<footer>
+    20230256
+    سلمى كمال بدر
+</footer>
+</html>
